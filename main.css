@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow: fixed;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: 0; 
+    position: absolute;
+}
+
+#container{
+    position: absolute;
+    margin: 0px;
+    z-index: 10;
+    /* z-index: 600000; */
+}
+
+#side{
+    z-index: 2; 
+    position: absolute; 
+    width: 300px; 
+    height: 100%; 
+    background-color: rgba(178, 216, 7, 0.805);
+}
+
+#background1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -30;
+    background-color: rgba(224, 61, 36, 0.805);
+}
+
+#sideText{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    z-index: 30;
+    position: absolute;
+    margin-top: 280px;
+    width: 280px;
+    padding: 22px;
+    font-size: 16px;
+    text-align: right;
+    font-family: 'Lora', serif;    
+}
+
+#backgroundText{
+    font-size: 12px;
+    z-index: -20;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    margin-left: 344px;
+    font-family: 'Nabla', cursive;
+}
+
+#titleMM{
+    font-family: 'Nabla', cursive;   
+}
+
+#loading{
+    z-index: 1000;
+    width: 120%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+#entryBut{
+    position: absolute;
+    z-index: 2000;
+    width: 14%;
+    height: 75px;
+    border-radius: 20px;
+    margin-top: 470px;
+    margin-left: 60%;
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+#Explanation{
+    position: absolute;
+    z-index: 2000;
+    width: 500px;
+    font-family: 'Lora', serif;    
+    font-size: 16px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+    color: white;
+}
+
+#entryBut:hover{
+    background-color: white;
+    color: black;
+}
+
+#counter{
+    margin-left: 80%;
+    color: blue;
+    width:15%;
+    height:140px;
+    z-index: 1000;
+    text-align: center;
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif, bold;
+}
+
+#phone{
+    background-color: rgb(255, 0, 0);
+    color: chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 100px;
+    z-index: -10000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+/*# sourceMappingURL=main.css.map*/
